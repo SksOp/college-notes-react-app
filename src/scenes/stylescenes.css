@@ -1,0 +1,107 @@
+
+
+.my-class{
+    color: red;
+}
+
+.NavItemPC{
+    /* padding: 0px 1rem; */
+    margin: 0px 2rem;
+}
+
+.NavItemPC:hover{
+    cursor: pointer;
+}
+
+.mobNavItem:hover{
+    cursor: pointer;
+}
+
+.handpointer:hover{
+    cursor: pointer;
+}
+.active-navitem{
+    font-weight: 500;
+    /* font-size: */
+    
+}
+.br{
+    width: 70%;
+    background-color: black;
+    height: 2px;
+}
+.des-cont{
+    position: relative;
+}
+.hidden{
+    opacity: 0;
+    min-width: 300px;
+}
+.des-cont:hover .pen{
+    /* animation: none; */
+    transition: 2s;
+    transform: translateX(200px);
+    opacity: 0;
+
+}
+
+
+.notes{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    min-width: 300px;
+    /* transition-timing-function: ease; */
+    transition: 3s;
+    
+}
+.des-cont:hover .notes{
+    width: 80%;
+    right: 7%;
+    top: 5%;
+}
+.studs{
+    position: absolute;
+    width: 10%;
+    right: 30%;
+    top: 50%;
+    z-index: 0;
+    transition: 3s;
+    transition-timing-function: ease;
+    opacity: 0;
+    
+}
+.des-cont:hover .studs{
+    opacity: 1;
+    width: 50%;
+    right: 10%;
+    top: 30%;
+    z-index: 2;
+}
+.pen{
+    position: absolute;
+    z-index: 2;
+    right: 30%;
+    top:17%;
+    transition-timing-function: ease;
+    transition: 1s;
+    animation: wiggle 10s infinite;
+}
+
+
+
+@keyframes wiggle{
+    0%   {right: 40%; top:0%;}
+    24%   {right: 18%; top:0%;}
+    29%   {right: 40%; top:5%;}
+    53%   {right: 18%;top:5%;}
+    58%   {right: 40%;top:10%;}
+    82%   {right: 18%;top:10%;}
+    87%   {right: 40%;top:16%;}
+    95%   {right: 30%;top:16%;}
+    100%   {right: 40%;top:0%;}
+
+    
+}
+
+
