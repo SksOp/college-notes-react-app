@@ -1,3 +1,3 @@
 export const serverUrl={
-    server:"http://localhost:3001"
+    server:"https://college-notes-server.onrender.com/"
 }

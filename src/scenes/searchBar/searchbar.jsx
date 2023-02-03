@@ -49,7 +49,7 @@ const SearchBar = ({embdDetail}) =>{
         
         const getResult = async()=>{
         
-            const searchResponse = await fetch (serverUrl.server+"/search/"+keyword,{
+            const searchResponse = await fetch (serverUrl.server+"college-notes-react-app/search/"+keyword,{
                     method:"GET",
                 })
             const result = await searchResponse.json();

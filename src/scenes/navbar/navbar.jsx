@@ -48,7 +48,7 @@ const Navbar = ({page})=>{
                  padding=" 0rem 2% "
                 >
                     <img className="handpointer" src={logo} height="40 px"  onClick={()=>navigate("/")}/>
-                    <Typography className="handpointer" onClick={()=>navigate("/")}
+                    <Typography className="handpointer" onClick={()=>navigate("/college-notes-react-app/")}
                     padding="0.5rem"
                     fontSize="1.3rem"
                     sx={{
@@ -61,7 +61,7 @@ const Navbar = ({page})=>{
                 {/*Desktop navbar left comps */}
                 {isNonMobileScreens?(
                     <FlexBetween>
-                        <Typography onClick={()=>navigate("/")} className={`NavItemPC `} sx={{
+                        <Typography onClick={()=>navigate("/college-notes-react-app/")} className={`NavItemPC `} sx={{
                             "font-weight":`${page==="Landing"?"600":"100"}`,
                             m:"0 1rem"
     
@@ -70,7 +70,7 @@ const Navbar = ({page})=>{
                             Home
                         </Typography>
                         
-                        <Typography onClick={()=>navigate("/search")} className="NavItemPC"
+                        <Typography onClick={()=>navigate("/college-notes-react-app/search")} className="NavItemPC"
                         sx={{
                             "font-weight":`${page==="Search"?"500":"100"}`,
                             m:"0 1rem"
@@ -81,7 +81,7 @@ const Navbar = ({page})=>{
                             Search Now
                         </Typography>
                         
-                        <Typography onClick={()=>navigate("/contribute")} className="NavItemPC"
+                        <Typography onClick={()=>navigate("/college-notes-react-app/contribute")} className="NavItemPC"
                         sx={{
                             "font-weight":`${page==="Contribute"?"500":"100"}`,
                             m:"0 1rem"
@@ -127,7 +127,7 @@ const Navbar = ({page})=>{
                     </Box>
                     {/* menu items */}
                     <FlexBetween  flexDirection="column" >
-                        <Typography onClick={()=>navigate("/")} className={`mobNavItem `} sx={{
+                        <Typography onClick={()=>navigate("/college-notes-react-app/")} className={`mobNavItem `} sx={{
                             "font-weight":`${page==="Landing"?"600":"300"}`,
                             m:"10% 1rem",
                             fontSize:"1.5rem"
@@ -136,7 +136,7 @@ const Navbar = ({page})=>{
                             Home
                         </Typography>
                         <div className="br" ></div>
-                        <Typography onClick={()=>navigate("/search")} className="mobNavItem"
+                        <Typography onClick={()=>navigate("/college-notes-react-app/search")} className="mobNavItem"
                         sx={{
                             "font-weight":`${page==="Search"?"500":"300"}`,
                             m:"10% 1rem",
@@ -147,7 +147,7 @@ const Navbar = ({page})=>{
                             Search Now
                         </Typography>
                         <div className="br" ></div>
-                        <Typography onClick={()=>navigate("/contribute")} className="mobNavItem"
+                        <Typography onClick={()=>navigate("/college-notes-react-app/contribute")} className="mobNavItem"
                         sx={{
                             "font-weight":`${page==="Contribute"?"500":"300"}`,
                             m:"10% 1rem",
