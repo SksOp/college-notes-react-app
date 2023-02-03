@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/college-notes-react-app/static/css/main.9cab1ad6.css",
+    "main.js": "/college-notes-react-app/static/js/main.9548cf96.js",
+    "static/media/web.png": "/college-notes-react-app/static/media/web.b0df98cba118480b6734.png",
+    "static/media/notes.png": "/college-notes-react-app/static/media/notes.3803b26b999e983b9670.png",
+    "static/media/3studs.png": "/college-notes-react-app/static/media/3studs.fab512d5b6b9f50027bc.png",
+    "static/media/collegeNotes.png": "/college-notes-react-app/static/media/collegeNotes.57f6463c5056a220913e.png",
+    "static/media/pen.png": "/college-notes-react-app/static/media/pen.ace3c5fc9a72905ee3ee.png",
+    "index.html": "/college-notes-react-app/index.html",
+    "main.9cab1ad6.css.map": "/college-notes-react-app/static/css/main.9cab1ad6.css.map",
+    "main.9548cf96.js.map": "/college-notes-react-app/static/js/main.9548cf96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cab1ad6.css",
+    "static/js/main.9548cf96.js"
+  ]
+}
