@@ -18,8 +18,8 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline/>
         <Routes>
-          <Route path ="/" element={<LandingPage/>}/>
-          <Route path ="/search" element={<SearchPage />}/>
+          <Route path ="college-notes-react-app/" element={<LandingPage/>}/>
+          <Route path ="college-notes-react-app/search" element={<SearchPage />}/>
         </Routes>
       </ThemeProvider>
       </BrowserRouter>
